@@ -48,7 +48,7 @@ ins { background: #ff9; color: #000; text-decoration: none; }
 mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
 
 /* Redeclare monospace font family: h5bp.com/j */
-pre, code, kbd, samp { font-family: monospace, monospace; _font-family: \'courier new\', monospace; font-size: 1em; }
+pre, code, kbd, samp { font-family: monospace, monospace; font-family: 'courier new', monospace; font-size: 1em; }
 
 /* Improve readability of pre-formatted text in all browsers */
 pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
@@ -318,7 +318,7 @@ strong {
 		<ul>
 			<li>Sending an e-mail to: <a href="mailto:privacy@revolutionmessaging.com">privacy@revolutionmessaging.com</a></li>
 			<li>Telephone: 888-834-7386</li>
-		</ul>				
+		</ul>
 		
     </div>
     <footer>
@@ -333,19 +333,19 @@ strong {
       if(this.console) {
         arguments.callee = arguments.callee.caller;
         var newarr = [].slice.call(arguments);
-        (typeof console.log === \'object\' ? log.apply.call(console.log, console, newarr) : console.log.apply(console, newarr));
+        (typeof console.log === 'object' ? log.apply.call(console.log, console, newarr) : console.log.apply(console, newarr));
       }
     };
     (function(b){function c(){}for(var d="assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,timeStamp,profile,profileEnd,time,timeEnd,trace,warn".split(","),a;a=d.pop();){b[a]=b[a]||c}})((function(){try
     {console.log();return window.console;}catch(err){return window.console={};}})());
-    window._gaq = [[\'_setAccount\',\'UA-4879714-111\'],[\'_trackPageview\'],[\'_trackPageLoadTime\']];
+    window._gaq = [['_setAccount','UA-4879714-111'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
-      load: (\'https:\' == location.protocol ? \'//ssl\' : \'//www\') + \'.google-analytics.com/ga.js\'
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
     });
   </script>
   <!--[if lt IE 7 ]>
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script>window.attachEvent(\'onload\',function(){CFInstall.check({mode:\'overlay\'})})</script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
   <![endif]-->
 </body>
 </html>
